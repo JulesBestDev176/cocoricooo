@@ -4,9 +4,9 @@ import { Phone, Mail, Clock, MapPin, Facebook, Instagram, Twitter } from 'lucide
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Twitter, href: '#', label: 'Twitter' }
+    { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
+    { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
+    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' }
   ];
 
   return (
@@ -134,9 +134,9 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
             <p>&copy; 2024 cocoricooo. tous droits réservés.</p>
             <div className="flex flex-wrap justify-center gap-6">
-              <a href="#" className="hover:text-cocorico-yellow transition-colors">mentions légales</a>
-              <a href="#" className="hover:text-cocorico-yellow transition-colors">confidentialité</a>
-              <a href="#" className="hover:text-cocorico-yellow transition-colors">CGV</a>
+              <a href="/mentions-legales" className="hover:text-cocorico-yellow transition-colors">mentions légales</a>
+              <a href="/confidentialite" className="hover:text-cocorico-yellow transition-colors">confidentialité</a>
+              <a href="/cgv" className="hover:text-cocorico-yellow transition-colors">CGV</a>
             </div>
           </div>
         </div>

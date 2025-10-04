@@ -26,7 +26,7 @@ const Header: React.FC = () => {
     } else {
       document.body.style.overflow = 'unset';
     }
-  }, []);
+  }, [isMenuOpen]);
 
   const navLinks = [
     { path: '/', label: 'Accueil' },

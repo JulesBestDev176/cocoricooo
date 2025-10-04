@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, TrendingUp, Shield, Heart, MapPin, Scale } from 'lucide-react';
+import { TrendingUp, Shield, Heart, MapPin } from 'lucide-react';
 
 const RaceGoliath: React.FC = () => {
   const caracteristiques = [
